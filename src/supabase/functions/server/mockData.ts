@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Restaurant, Reservation } from './types.ts';
 
 export const mockRestaurants: Restaurant[] = [

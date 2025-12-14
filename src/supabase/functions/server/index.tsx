@@ -1,8 +1,11 @@
+// @ts-nocheck
 import { Hono } from "npm:hono";
 import { cors } from "npm:hono/cors";
 import { logger } from "npm:hono/logger";
 import * as kv from "./kv_store.tsx";
 import { mockRestaurants, mockReservations } from "./mockData.ts";
+
+declare const Deno: any;
 
 const app = new Hono();
 
