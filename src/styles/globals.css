@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #D2691E; /* Burnt Orange */
+  --color-primary-dark: #A0522D;
+  --color-accent: #DC143C; /* Deep Red */
+  --color-neutral-light: #F5F5DC; /* Beige */
+  --color-neutral: #FAFAFA; /* Off-white */
+  --color-dark: #2C2C2C; /* Dark Charcoal */
+  --color-success: #10B981; /* Green */
+  --color-warning: #F59E0B; /* Orange */
+  --color-grey: #9CA3AF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  color: var(--color-dark);
+  background-color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
